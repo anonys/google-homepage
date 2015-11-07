@@ -1,0 +1,130 @@
+body {
+margin: auto; 
+}
+
+.header ul {
+    margin: 0;
+    padding:0 0 0 0 20px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.header li{
+    float: right;
+    display: block;
+    padding-left: 20px;
+    padding-top:20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: arial;
+    color: grey;
+}
+
+.header {
+    font-size: 14px;
+}
+
+img {
+    margin: auto;
+    width: 17em;
+}
+
+#SearchBar {
+    margin: auto;
+    padding: auto;
+    width: 45em;
+    height: 30px;
+    border:1px solid #dcdcdc;
+}
+
+.main {
+    margin-top: 12%;
+    text-align: center;
+    
+}
+
+.SearchOptions {
+    margin:3px;
+    text-align: center;
+}
+
+.button {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    display:inline-block;
+    margin: 19px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.button:hover {
+    border-color: darkgrey;
+}
+
+.footer {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-top: 1px solid  #D9D9D9;
+    font-size: 13px;
+    bottom: 0;
+    position: absolute;
+    padding-right: 20px;
+    
+
+  
+}
+
+.footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+}
+
+#right li, #left li{
+  display: inline-block;
+    padding: 0 12px 0 0px;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+#signin-button{
+    margin : 13px;
+    padding: 6px 14px 6px 14px;
+    background-color: dodgerblue;
+    border-radius: 2px;    
+}
+
+#signin-button a{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+#signin-button a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
